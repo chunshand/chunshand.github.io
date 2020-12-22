@@ -1,0 +1,25 @@
+{
+	"name": "chunshand.github.io",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"dependencies": {
+		"vuepress": "^1.7.1"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"docs:dev": "vuepress dev docs",
+		"docs:build": "vuepress build docs"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/chunshand/chunshand.github.io.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/chunshand/chunshand.github.io/issues"
+	},
+	"homepage": "https://github.com/chunshand/chunshand.github.io#readme"
+}
