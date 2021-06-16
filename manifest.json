@@ -1,0 +1,15 @@
+{ 
+	"name" : "ChanshanBlog" , 
+	"short_name" : "ChanshanBlog" , 
+	"display" : "standalone" , 
+	"start_url" : "/" , 
+	"theme_color" : "#313131" , 
+	"background_color" : "#313131" , 
+	"icons" : [ 
+	  {
+		"src": "img/log.png",
+		"sizes": "48x48",
+		"type": "image/png"
+	  }
+	 ] 
+	}
