@@ -1,0 +1,1 @@
+import{_ as e,c as a,o as t,E as r}from"./app.accfdeb3.js";const u='{"title":"123","description":"","frontmatter":{},"headers":[{"level":2,"title":"123","slug":"_123-2"}],"relativePath":"framework/src/test/index.md"}',_={},d=r("",3),s=[d];function i(n,c,o,h,l,f){return t(),a("div",null,s)}var x=e(_,[["render",i]]);export{u as __pageData,x as default};
