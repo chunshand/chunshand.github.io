@@ -31,13 +31,16 @@
 
         <n-list bordered>
             <n-list-item v-for="item in listDataComputed" :key="item.key">
-                <a :href="item.link">{{ item.text }}</a>
+                <n-space :align="'center'">
+                    <n-a :href="item.link">{{ item.text }}</n-a>
+                    <n-text>{{ item.desc }}</n-text>
+                </n-space>
             </n-list-item>
         </n-list>
     </n-space>
 </template>
 <script lang="ts" setup>
-import { NButton, NCard, NRow, NCol, NText, NSpace, NTag, NInput, NList, NListItem } from 'naive-ui'
+import { NA, NP, NText, NSpace, NTag, NInput, NList, NListItem } from 'naive-ui'
 import { ref, computed } from "vue";
 import data from "./data.json";
 

@@ -20,6 +20,8 @@ function globFiles(dirName) {
 }
 function run() {
     globFiles("framework");
+    globFiles("function");
+    globFiles("question");
 }
 
 run()
