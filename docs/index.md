@@ -2,8 +2,8 @@
 home: true
 heroImage: /logo.png
 heroAlt: Logo image
-heroText: 前端打工人
-tagline: 汇总前端的各种解决方案，方便二次寻找
+heroText: 前端收藏家
+tagline: 收集各种解决方案
 features:
   - title: 架构配置
     details: webpack vue-cli vite 常用配置集合

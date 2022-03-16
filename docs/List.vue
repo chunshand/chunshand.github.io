@@ -15,7 +15,7 @@
                 >{{ value }}</n-tag>
             </n-space>
         </n-space>
-        <n-input v-model.value="seachContent"></n-input>
+        <n-input v-model:value="seachContent" placeholder="输入需要搜索的内容" clearable></n-input>
         <n-list bordered>
             <n-list-item v-for="item in listDataComputed" :key="item.link">
                 <n-space :align="'center'">
@@ -61,7 +61,9 @@ const listDataComputed = computed(() => {
         let isType = item.type.filter((i) => {
             return selectComputed.value.map((t) => t.toLowerCase()).indexOf(i.toLowerCase()) > -1
         }).length == selectComputed.value.length;
-        return isType;
+
+        let typeStr = (item.type.join('') + item.text + item.desc).toLowerCase();
+        return isType || (typeStr.indexOf(seachContent.value.toLowerCase()) > -1 && seachContent.value.length > 0);
     })
 })
 </script>

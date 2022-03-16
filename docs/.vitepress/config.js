@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 export default defineConfig({
-    title: "前端打工人",
-    description: "前端打工人",
+    title: "前端收藏家",
+    description: "前端收藏家",
     themeConfig: {
         nav: [
             {
