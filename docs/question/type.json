@@ -1,23 +1,3 @@
 {
-    "classify": [
-        {
-            "title": "构建工具",
-            "list": [
-                "Webpack",
-                "Vite",
-                "Vue-Cli"
-            ],
-            "select": "Webpack"
-        },
-        {
-            "title": "功能",
-            "list": [
-                "压缩",
-                "多页面",
-                "优化",
-                "测试"
-            ],
-            "select": "压缩"
-        }
-    ]
+    "classify": []
 }

@@ -16,9 +16,13 @@ export default defineConfig({
             {
                 text: "疑难杂症",
                 link: "/question/"
+            },
+            {
+                text: "关于",
+                link: "/about/readme"
             }
         ],
-        sidebar:false
+        sidebar: false
         // sidebar: sidebarData,
     },
 })

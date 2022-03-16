@@ -1,23 +1,23 @@
 {
     "classify": [
         {
-            "title": "构建工具",
+            "title": "框架",
             "list": [
-                "Webpack",
-                "Vite",
-                "Vue-Cli"
+                "原生",
+                "React",
+                "Vue"
             ],
-            "select": "Webpack"
+            "select": "原生"
         },
         {
             "title": "功能",
             "list": [
-                "压缩",
-                "多页面",
-                "优化",
-                "测试"
+                "时间日期",
+                "拖拽",
+                "Office",
+                "编辑器"
             ],
-            "select": "压缩"
+            "select": "时间日期"
         }
     ]
 }
