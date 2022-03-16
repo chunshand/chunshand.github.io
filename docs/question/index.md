@@ -3,7 +3,5 @@
 import List from './List.vue'
 </script>
 
-
-
-# 架构
+# 疑难杂症
 <List/>
