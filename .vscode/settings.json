@@ -3,5 +3,7 @@
         "**/.git": true,
         "**/.DS_Store": true,
         "**/node_modules": true,
+        "**/docs/*/data.json": true,
+        "**/docs/*/type.json": false,
     }
 }
