@@ -2,16 +2,16 @@
 home: true
 # heroImage: /logo.png
 heroAlt: Logo image
-heroText: 笔记
-tagline: Hero subtitle
-actionText: Get Started
+heroText: 前端打工人
+tagline: 汇总前端的各种解决方案，方便二次寻找
+actionText: 快速进入
 actionLink: /guide/
 features:
-  - title: Simplicity First
-    details: Minimal setup with markdown-centered project structure helps you focus on writing.
-  - title: Vue-Powered
-    details: Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue.
-  - title: Performant
-    details: VitePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
-footer: MIT Licensed | Copyright © 2019-present Evan You
+  - title: 架构配置
+    details: webpack vue-cli vite 等
+  - title: 功能库
+    details: 日期时间、数学运算、拖拽 等
+  - title: 疑难杂症
+    details: 汇总常见问题
+footer: MIT Licensed | Copyright © 2022-present Chunshand
 ---
