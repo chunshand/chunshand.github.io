@@ -19,7 +19,7 @@
         <n-list bordered>
             <n-list-item v-for="item in listDataComputed" :key="item.link">
                 <n-space :align="'center'">
-                    <n-a :href="item.link">{{ item.text }}</n-a>
+                    <n-a :href="item.link" target="_blank">{{ item.text }}</n-a>
                     <n-text>{{ item.desc }}</n-text>
                 </n-space>
             </n-list-item>
@@ -58,12 +58,15 @@ const selectComputed = computed(() => {
 });
 const listDataComputed = computed(() => {
     return listData.value.filter((item: listDataItemInterface) => {
-        let isType = item.type.filter((i) => {
-            return selectComputed.value.map((t) => t.toLowerCase()).indexOf(i.toLowerCase()) > -1
-        }).length == selectComputed.value.length;
-
         let typeStr = (item.type.join('') + item.text + item.desc).toLowerCase();
-        return isType || (typeStr.indexOf(seachContent.value.toLowerCase()) > -1 && seachContent.value.length > 0);
+        if (seachContent.value.length > 0) {
+            return typeStr.indexOf(seachContent.value.toLowerCase()) > -1;
+        } else {
+            let isType = item.type.filter((i) => {
+                return selectComputed.value.map((t) => t.toLowerCase()).indexOf(i.toLowerCase()) > -1
+            }).length == selectComputed.value.length;
+            return isType
+        }
     })
 })
 </script>

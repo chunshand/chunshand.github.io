@@ -6,6 +6,11 @@ function globFiles(dirName) {
     const rootPathDir = path.resolve(__dirname, '../docs/' + dirName)
     const entries = fg.sync("*/config.json", { dot: true, cwd: pathDir });
     let list_data = [];
+    const data_data_path = pathDir + '/data.json';
+    if (fs.existsSync(data_data_path)) {
+        let data_data = require(data_data_path);
+        list_data.push(...data_data);
+    }
     for (let index = 0; index < entries.length; index++) {
         const item = entries[index];
         const json_path = path.resolve(pathDir, item);
@@ -17,6 +22,8 @@ function globFiles(dirName) {
     }
     let data_json_path = path.resolve(rootPathDir, "data.json");
     fs.writeFileSync(data_json_path, JSON.stringify(list_data))
+
+
 }
 function run() {
     globFiles("framework");

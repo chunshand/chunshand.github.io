@@ -5,7 +5,7 @@ export default defineConfig({
     themeConfig: {
         nav: [
             {
-                text: "架构配置",
+                text: "架构配置(暂无)",
                 link: "/framework/",
 
             },
@@ -17,6 +17,10 @@ export default defineConfig({
                 text: "疑难杂症",
                 link: "/question/"
             },
+            // {
+            //     text: "我想开发一个 xxx",
+            //     link: "/ido/"
+            // },
             {
                 text: "关于",
                 link: "/about/readme"

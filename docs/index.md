@@ -13,3 +13,9 @@ features:
     details: 汇总常见问题
 footer: MIT Licensed | Copyright © 2022-present Chunshand
 ---
+
+> 针对以上方面，假如有小伙伴想要增加内容 欢迎投稿
+
+
+> 可前往 <a href="https://github.com/chunshand/chunshand.github.io/issues" target="_bank">Github Issues</a>提交
+
