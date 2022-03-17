@@ -14,8 +14,12 @@ export default defineConfig({
                 link: "/function/"
             },
             {
-                text: "疑难杂症",
+                text: "常见问题",
                 link: "/question/"
+            },
+            {
+                text: "随笔",
+                link: "/blog/"
             },
             // {
             //     text: "我想开发一个 xxx",
