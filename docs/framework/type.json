@@ -5,7 +5,8 @@
             "list": [
                 "Webpack",
                 "Vite",
-                "Vue-Cli"
+                "Vue-Cli",
+                "Nuxt"
             ],
             "select": "Webpack"
         },
@@ -15,9 +16,14 @@
                 "压缩",
                 "多页面",
                 "优化",
+                "跨域",
+                "cnd加速",
+                "别名",
+                "css",
+                "分析",
                 "测试"
             ],
-            "select": "压缩"
+            "select": "测试"
         }
     ]
 }

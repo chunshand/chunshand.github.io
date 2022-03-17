@@ -11,7 +11,7 @@ function globFiles(dirName) {
         const json_path = path.resolve(pathDir, item);
         let contnt = require(json_path);
         const name = item.split('/')[0];
-        contnt.link = `/${dirName}/src/${name}/index`
+        contnt.link = contnt.link ? contnt.link : `/${dirName}/src/${name}/index`
         contnt.root = dirName;
         list_data.push(contnt);
     }
