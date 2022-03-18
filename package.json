@@ -8,7 +8,7 @@
     "scripts": {
         "dev": "yarn glob && vitepress dev docs --port 8887",
         "build": "yarn glob && vitepress build docs",
-        "deploy": "npm run docs:build && npm run docs:deploy && npm run docs:deploy:gitee",
+        "deploy": "npm run docs:build && npm run docs:deploy",
         "glob": "node ./scripts/glob.js",
         "docs:dev": "yarn glob && vitepress dev docs --port 8887",
         "docs:build": "yarn glob && vitepress build docs",

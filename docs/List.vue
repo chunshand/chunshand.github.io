@@ -1,7 +1,7 @@
 <template>
     <div style="height:32px"></div>
     <n-space vertical :size="24">
-        <n-space v-for="item in classifyData">
+        <n-space v-for="(item, index)  in classifyData" :key="index">
             <n-space>
                 <n-tag size="small" checkable>{{ item.title }}:</n-tag>
                 <n-tag
@@ -34,13 +34,12 @@ import { NA, NText, NSpace, NTag, NInput, NList, NListItem } from 'naive-ui'
 import { ref, reactive, computed } from "vue";
 
 import { listDataItemInterface, typeDataInterface, typeDataClassifyItemInterface } from "./type.d"
-const classify: typeDataClassifyItemInterface[] = [];
+// const classify: typeDataClassifyItemInterface[] = [];
 interface props {
     dataData: listDataItemInterface[],
     typeData: typeDataInterface
 }
-
-const $props = withDefaults(defineProps<props>(), {
+const props = withDefaults(defineProps<props>(), {
     dataData: () => [],
     typeData: () => {
         return {
@@ -48,11 +47,12 @@ const $props = withDefaults(defineProps<props>(), {
         }
     }
 });
-const classifyData = reactive($props.typeData.classify);
-const seachContent = ref('')
-const listData = ref<listDataItemInterface[]>($props.dataData);
+const classifyData = ref<typeDataClassifyItemInterface[]>(props.typeData.classify);
+// const classifyData = $props.typeData.classify;
+const seachContent = ref<string>('')
+const listData = ref<listDataItemInterface[]>(props.dataData);
 const selectComputed = computed(() => {
-    return classifyData.map((item) => {
+    return classifyData.value.map((item) => {
         return item.select;
     })
 });

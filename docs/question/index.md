@@ -7,5 +7,5 @@ import typeData from "./type.json"
 
 
 
-# 疑难杂症
+# 常遇问题
 <List :dataData="dataData" :typeData="typeData"/>
