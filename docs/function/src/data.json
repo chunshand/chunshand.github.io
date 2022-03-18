@@ -128,7 +128,7 @@
         "desc": "快速构建在线表格",
         "type": [
             "Browser",
-            "Office"
+            "表格"
         ],
         "link": "https://hondrytravis.com/x-spreadsheet-doc",
         "root": "function"
