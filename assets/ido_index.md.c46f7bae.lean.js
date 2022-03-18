@@ -1,0 +1,1 @@
+import{_ as e,c as r,o,a as t}from"./app.ffceb8a2.js";const u='{"title":"\u6211\u60F3\u5F00\u53D1\u4E00\u4E2A xxxx","description":"","frontmatter":{},"headers":[],"relativePath":"ido/index.md"}',n={},a=t("",6),l=[a];function i(s,_,p,c,x,d){return o(),r("div",null,l)}var f=e(n,[["render",i]]);export{u as __pageData,f as default};
