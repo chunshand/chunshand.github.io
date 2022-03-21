@@ -1,8 +1,13 @@
+
 # 002-让你的Windows丝滑的使用Linux
 
 
+![](./00.png)
 
 
+::: tip 注意
+你的`windows`需要支持`WSL`,也就是`win10` or `win11`
+:::
 ## 第一步 开启WSL
 
 > 假如你已经开启了 `WSL` 可忽略第一步
@@ -21,7 +26,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 :::
 
 
-### 安装包管理器
+### 第二步 安装包管理器
 
 我们需要安装一个`LxRunOffline`工具，需要借助`choco`工具安装，所以我们先安装`choco`
 
@@ -37,17 +42,17 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 然后再次使用 `choco -h` 验证
 
-### 安装LxRunOffline
+### 第三步 安装LxRunOffline
 
 ```bash
 scoop bucket add extras
 scoop install lxrunoffline
 ```
 
-同样 `lxrunoffline -v` 验证以下
+同样 `lxrunoffline -v` 验证一下
 
 
-### 下载镜像
+### 第四步 下载镜像
 
 **下载地址**
 - [Centos镜像-Github地址](https://github.com/CentOS/sig-cloud-instance-images/blob/CentOS-7.8.2003-x86_64/docker/centos-7.8.2003-x86_64-docker.tar.xz)
@@ -62,7 +67,7 @@ scoop install lxrunoffline
 :::
 
 
-### 安装镜像
+### 第五步 安装镜像
 
 
 ```bash
@@ -76,9 +81,23 @@ LxRunOffline install -n [自定义名称,例如:centos] -d [安装位置] -f [�
 # 实战:
 LxRunOffline install -n Centos -d D:\WSL\Centos -f D:\WSL\centos-7.8.2003-x86_64-docker.tar.xz -s
 
-# 蓝奏云
+# 蓝奏云需要注意
 LxRunOffline install -n Centos -d D:\WSL\Centos -f D:\WSL\centos-7.8.2003-x86_64-docker.tar.zip -s
 
 ```
 
-根据自身情况 修改对应的参数
+根据自身情况 修改对应 文件地址 和 安装地址
+
+### 第六步 成功
+
+- 在任意位置，鼠标右键，菜单选择 `LxRunOffline` 下的 `centos` 即可快速打开`linux`命令行
+  - ![](./02.png)
+- 或者在`shell` 输入 `wsl` 进入，和上面的是一样的
+  - ![](./03.png)
+
+
+
+### 其他注意
+
+- `WSL` 下的 `docker` 还是需要 `Docker Desktop for Windows`
+- `win11` 下 文件资源管理器，左侧会有一个 `linux` 目录 相当不错

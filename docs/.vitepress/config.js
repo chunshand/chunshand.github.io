@@ -3,7 +3,7 @@ export default defineConfig({
     title: "前端收藏家",
     description: "前端收藏家",
     markdown: {
-        
+
     },
     themeConfig: {
         nav: [
@@ -43,6 +43,7 @@ export default defineConfig({
         ],
         sidebar: false
         // sidebar: sidebarData,
+
 
     },
 })
