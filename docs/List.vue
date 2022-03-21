@@ -56,13 +56,13 @@ const selectComputed = computed(() => {
         return item.select;
     })
 });
-const listDataComputed = computed(() => {
+const listDataComputed = computed((): listDataItemInterface[] => {
     return listData.value.filter((item: listDataItemInterface) => {
         let typeStr = (item.type.join('') + item.text + item.desc).toLowerCase();
         if (seachContent.value.length > 0) {
             return typeStr.indexOf(seachContent.value.toLowerCase()) > -1;
         } else {
-            let isType = item.type.filter((i) => {
+            let isType: boolean = item.type.filter((i) => {
                 return selectComputed.value.map((t) => t.toLowerCase()).indexOf(i.toLowerCase()) > -1
             }).length == selectComputed.value.length;
             return isType

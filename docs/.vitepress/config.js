@@ -23,13 +23,17 @@ export default defineConfig({
                 link: "/blog/"
             },
             {
-                text: "我想开发一个[xxx]",
+                text: "我想开发一个那什么",
                 link: "/ido/"
             },
             {
-                text: "关于ME",
-                link: "/about/readme"
+                text: "分享",
+                link: "/share/index"
             },
+            // {
+            //     text: "关于ME",
+            //     link: "/about/readme"
+            // },
             {
                 text: "Github",
                 link: "https://github.com/chunshand"

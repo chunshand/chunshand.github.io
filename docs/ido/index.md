@@ -1,4 +1,4 @@
-# 我想开发一个 xxxx 
+# 我想开发一个那什么
 
 > 比如 我想开发一个组件库、类库、插件等等
 
@@ -13,6 +13,11 @@
 - [中文文档](https://liiked.github.io/VS-Code-Extension-Doc-ZH/#/)
 
 
+**webpack**
+- [编写一个webpack loader](https://webpack.docschina.org/contribute/writing-a-loader/)
+- [编写一个webpack plugin](https://webpack.docschina.org/contribute/writing-a-plugin/#creating-a-plugin)
+
+
 
 **其他**
-- [gh-pages 推送 page 神器](/ido/gh-pages/index.md)
+- [gh-pages 推送 page 神器 为自己的web网站加速上线](/ido/gh-pages/index.md)
