@@ -1,1 +1,0 @@
-import{_ as e,c as r,o,a as t}from"./app.bee8b12b.js";const g='{"title":"\u6211\u60F3\u5F00\u53D1\u4E00\u4E2A xxxx","description":"","frontmatter":{},"headers":[],"relativePath":"ido/index.md"}',n={},a=t("",8),l=[a];function i(s,p,_,c,h,d){return o(),r("div",null,l)}var u=e(n,[["render",i]]);export{g as __pageData,u as default};
