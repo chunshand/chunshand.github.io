@@ -1,0 +1,1 @@
+import{_ as e,c as a,o as t,a as o}from"./app.eaf10070.js";const u='{"title":"\u968F\u7B14","description":"","frontmatter":{},"headers":[],"relativePath":"blog/index.md"}',i={},s=o("",3),r=[s];function c(_,l,n,d,h,p){return t(),a("div",null,r)}var m=e(i,[["render",c]]);export{u as __pageData,m as default};
