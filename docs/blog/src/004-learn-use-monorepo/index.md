@@ -59,7 +59,7 @@ export class CreateUserDto {
 
 ![](19-39.png)
 
-我们通过`@monorepo-demo/serve`可直接找到web项目，然后引用项目下的子内容
+我们通过`@monorepo-demo/serve`可直接找到`serve`项目，然后引用项目下的子内容
 
 这样就通了，在开发时，这种情况，只在一个位置写结构，多个位置都可以引用，非常方便。
 
