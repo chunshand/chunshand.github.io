@@ -32,6 +32,19 @@ export default defineConfig({
                 text: "分享",
                 link: "/share/index"
             },
+            {
+                text: "学习笔记",
+                items: [
+                    {
+                        text: "CSS新世界",
+                        link: "/learn-notes/css-new-word/index"
+                    },
+                    {
+                        text: "Vue的设计与实现",
+                        link: "/learn-notes/vue-design-and-create/index"
+                    },
+                ]
+            },
             // {
             //     text: "关于ME",
             //     link: "/about/readme"
