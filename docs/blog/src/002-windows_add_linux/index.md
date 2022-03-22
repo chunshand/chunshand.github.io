@@ -1,5 +1,6 @@
 
 # 002-让你的Windows丝滑的使用Linux
+<!-- windows_add_linux   -->
 
 
 ![](./00.png)
