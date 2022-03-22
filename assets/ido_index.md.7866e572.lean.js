@@ -1,0 +1,1 @@
+import{_ as e,c as r,o,a as t}from"./app.43cc515c.js";const u='{"title":"\u6211\u60F3\u5F00\u53D1\u4E00\u4E2A\u90A3\u4EC0\u4E48","description":"","frontmatter":{},"headers":[],"relativePath":"ido/index.md"}',n={},a=t("",10),l=[a];function i(p,s,c,_,g,h){return o(),r("div",null,l)}var f=e(n,[["render",i]]);export{u as __pageData,f as default};
