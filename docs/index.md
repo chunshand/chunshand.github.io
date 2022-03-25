@@ -3,7 +3,7 @@ home: true
 heroImage: /logo.png
 heroAlt: Logo image
 heroText: 前端收藏家
-tagline: 收集各种解决方案 分类总结 方便二次使用
+tagline: 总结错误经验 收集解决方案
 actionText: 功能库
 actionLink: /function/
 features:
