@@ -1,1 +1,0 @@
-import{_ as e,c as t,o,a}from"./app.43cc515c.js";const f='{"title":"gh-pages","description":"","frontmatter":{},"headers":[{"level":3,"title":"\u5E38\u7528\u547D\u4EE4","slug":"\u5E38\u7528\u547D\u4EE4"}],"relativePath":"ido/gh-pages/index.md"}',d={},n=a("",10),s=[n];function i(r,g,l,c,h,u){return o(),t("div",null,s)}var m=e(d,[["render",i]]);export{f as __pageData,m as default};
