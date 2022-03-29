@@ -13,8 +13,8 @@ export default defineConfig({
 
             // },
             {
-                text: "功能库",
-                link: "/function/"
+                text: "功能库(推荐)",
+                link: "https://chunshand.github.io/search-wheel/#/"
             },
             {
                 text: "常遇问题",

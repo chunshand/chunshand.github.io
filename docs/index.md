@@ -10,7 +10,7 @@ features:
   - title: 架构配置(暂无)
     details: webpack vue-cli vite 常用配置集合
   - title: 功能库
-    details: 日期时间、数学运算、拖拽 等
+    details: 好消息 功能库的搜索有了新的网站 
   - title: 常遇问题
     details: 汇总常见的问题
 footer: MIT Licensed | Copyright © 2022-present Chunshand
@@ -23,3 +23,5 @@ footer: MIT Licensed | Copyright © 2022-present Chunshand
 
 可前往 <a href="https://github.com/chunshand/chunshand.github.io/issues" target="_bank">Github Issues</a> 提交哦
 :::
+
+[前端功能库搜索网站](https://chunshand.github.io/search-wheel/#/)
