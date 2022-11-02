@@ -128,7 +128,7 @@ nav['github'] = {
     link: 'https://www.github.com/chunshand'
 };
 export default {
-    title: '收藏&学习',
+    title: '学习笔记',
     description: '前端、算法、样式、HTML、CSS、JS、javascript、ES6',
     themeConfig: {
         nav,
