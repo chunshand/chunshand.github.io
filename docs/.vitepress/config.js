@@ -124,6 +124,7 @@ function handleNav() {
 
 const [nav, sidebar] = handleNav();
 nav['github'] = {
+    icon:"github",
     text: 'github',
     link: 'https://www.github.com/chunshand'
 };
