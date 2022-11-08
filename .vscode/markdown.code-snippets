@@ -1,0 +1,15 @@
+{
+    "print to md meta": {
+        "prefix": "mh",
+        "body": [
+            "---",
+            "date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE",
+            "title: $1",
+            "tags:",
+            "- $2",
+            "description: $3",
+            "---",
+        ],
+        "description": "填写 md 原信息"
+    }
+}
