@@ -7,7 +7,7 @@
         "dev": "vitepress dev --host 0.0.0.0",
         "build": "vitepress build",
         "serve": "vitepress serve",
-        "gh-pages": "gh-pages -d ./docs/.vitepress/dist -r https://github.com/chunshand/chunshand.github.io.git -b gh-pages",
+        "gh-pages": "gh-pages -d .vitepress/dist -r https://github.com/chunshand/chunshand.github.io.git -b gh-pages",
         "deploy": "pnpm run build && pnpm run gh-pages"
     },
     "keywords": [],
