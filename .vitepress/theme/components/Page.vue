@@ -1,4 +1,5 @@
 <template>
+
     <div v-for="(article, index) in posts" :key="index" class="list">
         <div class="list-header">
             <div class="list-li">
