@@ -6,11 +6,27 @@ aside: false
 ---
 # about me
 
-chunshand
+- chunshand
 
-前端小工一名
+- 前端小工
 
-技术栈：Vue*、PHP、NodeJS、uni-app、NestJS
+<LogoComponent :data="[
+    'ES6',
+    'Vue',
+    'NestJS',
+    'PHP',
+    'ViteJS',
+    'webpack',
+    'Node',
+    'React',
+    'uni-app',
+    'three.js',
+    'flutter',
+    'Go',
+    ]"/>
 
 邮箱：chunshand@foxmail.com
 
+<script setup>
+    import LogoComponent from "./components/logo.vue"
+</script>

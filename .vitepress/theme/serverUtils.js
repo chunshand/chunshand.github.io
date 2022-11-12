@@ -40,9 +40,6 @@ date: 2021-06-30
 title: ${i === 1 ? 'home' : 'page_' + i}
 sidebar: false
 ---
-::: tip ☺
-笔记内容，尽量避免长篇大论，一个小点描述清楚就ok了，微知识。
-:::
 <script setup>
 import Page from "./.vitepress/theme/components/Page.vue";
 import { useData } from "vitepress";
