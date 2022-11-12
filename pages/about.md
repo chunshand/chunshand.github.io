@@ -4,11 +4,11 @@ title: About
 description: About me test
 aside: false
 ---
-# about me
+# 关于
 
-- chunshand
+chunshand，一名前端小工，啥都弄过点，啥都不一定精通
 
-- 前端小工
+## 技术栈
 
 <LogoComponent :data="[
     'ES6',
@@ -24,6 +24,17 @@ aside: false
     'flutter',
     'Go',
     ]"/>
+
+
+
+
+
+## 作品
+
+- [NestJS 开发模板](https://github.com/chunshand/nest-template)
+- [Utools git commit 插件](https://github.com/chunshand/gitcommit)
+
+## 联系方式
 
 邮箱：chunshand@foxmail.com
 

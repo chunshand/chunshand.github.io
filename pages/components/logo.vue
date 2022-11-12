@@ -1,6 +1,6 @@
 <template>
     <div class="logo-list">
-        <img :src="logo[name]" alt="" :title="name" v-for="name in $props.data" :key="name">
+        <img :src="logo[name]" :alt="name" :title="name" v-for="name in $props.data" :key="name">
     </div>
 </template>
 <script setup lang="ts">
@@ -28,12 +28,17 @@ onMounted(() => {
 </script>
 <style scoped>
 .logo-list {
+    width: 100%;
     display: flex;
+    flex-wrap: wrap;
+    padding:24px;
+    box-sizing: border-box;
 }
 
 .logo-list img {
     width: 32px;
     height: 32px;
     margin-right: 8px;
+    margin-bottom: 8px;
 }
 </style>
