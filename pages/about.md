@@ -8,7 +8,7 @@ aside: false
 
 chunshand，一名前端小工，啥都弄过点，啥都不一定精通
 
-## 技术栈
+## 会写
 
 <LogoComponent :data="[
     'ES6',
@@ -29,7 +29,7 @@ chunshand，一名前端小工，啥都弄过点，啥都不一定精通
 
 
 
-## 作品
+## 仓库
 
 - [NestJS 开发模板](https://github.com/chunshand/nest-template)
 - [Utools git commit 插件](https://github.com/chunshand/gitcommit)

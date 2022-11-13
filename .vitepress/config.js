@@ -17,6 +17,7 @@ async function config() {
                 { text: 'Home', link: '/' },
                 { text: 'Archives', link: '/pages/archives' },
                 { text: 'Tags', link: '/pages/tags' },
+                { text: 'links', link: '/pages/links' },
                 { text: 'About', link: '/pages/about' }
                 // { text: 'Airene', link: 'http://airene.net' }  -- External link test
             ],
