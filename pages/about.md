@@ -4,9 +4,9 @@ title: About
 description: About me test
 aside: false
 ---
-# 关于
+# 关于我自己
 
-chunshand，一名前端小工，啥都弄过点，啥都不一定精通
+chunshand，一名前端小工。
 
 ## 会写
 

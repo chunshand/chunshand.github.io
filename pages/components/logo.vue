@@ -16,7 +16,7 @@ const logo = {
     webpack: "https://webpack.js.org/favicon.f326220248556af65f41.ico",
     "uni-app": "https://bjetxgzv.cdn.bspapp.com/VKCEYUGU-dc-site/9a952c80-6080-11eb-a16f-5b3e54966275.png",
     "three.js": "https://threejs.org/files/favicon.ico",
-    flutter: "https://flutter.cn/assets/images/cn/flutter-icon.png",
+    flutter: "https://storage.googleapis.com/cms-storage-bucket/4fd0db61df0567c0f352.png",
     Go: "https://golang.google.cn/favicon.ico",
     ES6: 'https://es6.ruanyifeng.com/favicon.ico',
 

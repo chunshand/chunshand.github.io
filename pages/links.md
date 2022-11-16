@@ -19,7 +19,15 @@ description: 推荐学习的链接
   - [Element plus](https://element-plus.gitee.io/zh-CN/)
   - [Quasar](http://www.quasarchs.com/)
   - [naiveui](https://www.naiveui.com/)
+  - [ant.design](https://ant.design/index-cn)
 
+- 2D
+  - [fabric.js](https://github.com/fabricjs/fabric.js)
+  - [pixijs](https://github.com/pixijs/pixijs)
+  - [spritejs](https://github.com/spritejs/spritejs)
+- 3D
+  - [Three 官方文档](https://threejs.org/)
+  - [Three 不错的入门文档](http://doc.cpengx.cn/)
 
 ## Flutter
 

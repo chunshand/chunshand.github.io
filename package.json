@@ -15,6 +15,7 @@
     "license": "ISC",
     "devDependencies": {
         "@types/node": "^18.11.8",
+        "@types/three": "^0.146.0",
         "@typescript-eslint/eslint-plugin": "^5.41.0",
         "@typescript-eslint/parser": "^5.41.0",
         "@typescript-eslint/types": "^5.41.0",
@@ -30,5 +31,8 @@
         "prettier": "^2.7.1",
         "typescript": "^4.8.4",
         "vitepress": "^1.0.0-alpha.26"
+    },
+    "dependencies": {
+        "three": "^0.146.0"
     }
 }
