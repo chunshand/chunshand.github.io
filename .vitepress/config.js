@@ -1,11 +1,11 @@
 const { getPosts, generatePaginationPages } = require('./theme/serverUtils')
 
 async function config() {
-    const pageSize = 10
+    const pageSize = 5
     await generatePaginationPages(pageSize)
     return {
 
-        title: 'blog',
+        title: 'chunshand',
         base: '/',
         description: '前端,博客,javascript,es6,vue,react',
         ignoreDeadLinks: true,
