@@ -47,8 +47,9 @@
 }
 h1 {
     font-size: 1.625rem !important;
-    font-weight: 500 !important;
+    font-weight: 600 !important;
     padding-top: 20px;
+    color: var(--vp-c-brand);
 }
 h2 {
     font-size: 1.25rem !important;
@@ -57,6 +58,8 @@ h2 {
     border-top:none !important;
     padding: 4px 0;
     margin:inherit !important;
+    color: var(--vp-c-brand);
+    border-bottom: 2px solid var(--vp-c-brand);
 }
 h3 {
     font-size: 1rem !important;

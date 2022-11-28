@@ -1,5 +1,5 @@
 <template>
-    <Layout />
+    <Layout></Layout>
     <Copyright />
 </template>
 <script setup>

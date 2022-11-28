@@ -4,6 +4,8 @@ title: About
 description: About me test
 aside: false
 ---
+<EmjioComponent/>
+
 # 关于我自己
 
 chunshand，一名前端小工。
@@ -33,6 +35,7 @@ chunshand，一名前端小工。
 
 - [NestJS 开发模板](https://github.com/chunshand/nest-template)
 - [Utools git commit 插件](https://github.com/chunshand/gitcommit)
+- [选中划线 高亮工具](https://github.com/chunshand/mark-highlight)
 
 ## 联系方式
 

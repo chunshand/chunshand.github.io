@@ -33,6 +33,12 @@ description: 推荐学习的链接
 
 - [Flutter 实战 电子书](https://book.flutterchina.club/)
 
+## 桌面软件开发
+
+- Electron
+- Tauri
+- wails
+- qt
 
 ## 免费开源软件
 
